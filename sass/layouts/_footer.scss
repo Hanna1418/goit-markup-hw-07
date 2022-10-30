@@ -1,0 +1,53 @@
+.footer-menu {
+  background-color: var(--header-footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.class-one-div {
+  display: flex;
+  align-items: baseline;
+}
+.class-two-div {
+  margin-right: 70px;
+}
+.address-bottom {
+  margin-top: 20px;
+  &:hover,
+  &:focus {
+    color: var(--btn-color-dark);
+  }
+}
+
+.addressli {
+  margin-bottom: 9px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.text-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--advantage-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--btn-color);
+  }
+}
+
+.text-address-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--address-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--btn-color);
+  }
+}

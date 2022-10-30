@@ -1,0 +1,56 @@
+.hero {
+  background: var(--header-footer-color);
+  padding: 200px 0px 200px 0px;
+  text-align: center;
+}
+
+.hero-img {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/fonn.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--hero-img);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--advantage-color);
+  max-width: 696px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  background-color: var(--btn-color);
+  color: var(--advantage-color);
+  border-color: transparent;
+  border-radius: 4px;
+  margin-top: 30px;
+  padding: 10px 25px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--btn-color-dark);
+    color: var(--advantage-color);
+  }
+}
